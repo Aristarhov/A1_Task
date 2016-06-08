@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Google test suite">
+    <listeners>
+        <listener class-name="com.a1systems.utils.ListenerClass" />
+    </listeners>
+    <test name="Google test">
+        <classes>
+            <class name="com.a1systems.test.GoogleTest"/>
+        </classes>
+    </test>
+</suite>
